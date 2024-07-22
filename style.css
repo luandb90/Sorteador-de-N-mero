@@ -1,0 +1,57 @@
+body{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background-color: rgb(181, 195, 200);
+    text-align: center;
+    margin-top: 10%;
+    transform: translate(-50%, -50%);
+
+}
+
+.all{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.resultado{
+    display: flex;
+    height: 40px;
+    width: 200px;
+    margin-left: 12%;
+    border: 3px solid;
+    border-color: black;
+    background-color: aliceblue;
+    color: brown;
+
+}
+
+.botaogerar{
+    height: 30px;
+    width: 113px;
+    border: 1px solid;
+    border-color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.botaolimpar{
+    height: 30px;
+    width: 113px;
+    border: 1px solid;
+    border-color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.botaogerar:hover{
+    background-color: rgb(114, 111, 107);
+    color: antiquewhite;
+}
+
+.botaolimpar:hover{
+    background-color: rgb(114, 111, 107);
+    color: antiquewhite;
+}
